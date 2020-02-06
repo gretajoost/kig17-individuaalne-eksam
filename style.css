@@ -8,8 +8,8 @@
     --gray: hsl(0, 0%, 87%);
     --white: hsl(0, 0%, 100%);
 
-    --font-main: serif;
-    --font-special: cursive;
+    --font-main: 'Roboto', sans-serif;
+    --font-special: 'Roboto Slab', serif;
 
     --shadow: 0 0.25rem 0 0 hsla(0, 0%, 0%, 0.25);
 }
@@ -61,7 +61,9 @@ h1, h2, h3, h4, h5 {
 }
 .lang__btn {
     font-family: var(--font-special);
+    font-weight: 700;
     color: var(--blue-dark);
+    font-size: 1.125rem;
     text-decoration: none;
 }
 
@@ -82,19 +84,24 @@ h1, h2, h3, h4, h5 {
     padding: 0; 
     font-size: 0.75rem;
     text-transform: uppercase;
+    font-family: var(--font-main);
+    font-weight: 400;
     color: var(--gray);
 }
 
 .course__name {
     margin: 1rem 0 0.25rem 0;
     font-size: 1.5rem;
-    font-weight: 100;
+    font-family: var(--font-special);
+    font-weight: 700;
     color: var(--yellow);
 }
 
 .course__address {
     margin: 0; padding: 0;
     font-size: 0.75rem;
+    font-family: var(--font-main);
+    font-weight: 400;
     color:var(--gray);
 }
 
@@ -122,8 +129,11 @@ h1, h2, h3, h4, h5 {
 }
 .course__distance-unit {
     font-size: 0.625rem;
+    font-family: var(--font-special);
+    font-weight: 700;
     line-height: 1;
-    margin: 420px; padding: 0;
+    /* margin: 420px;  */
+    padding: 0;
 }
 
 .course__data {
@@ -132,18 +142,19 @@ h1, h2, h3, h4, h5 {
     width: 100%;
     max-width: 400px;
     margin: 1rem 0;
-    font-size: 34px;
+    font-size: 0.875rem;
     text-transform: uppercase;
     color: var(--white);
 }
 
 .course__data-item__number {
     font-size: 1.125rem;
+    font-family: var(--font-main);
     font-weight: 700;
 }
 
 .btn-primary {
-    font-size: 9rem;
+    font-size: 1.25rem;
     padding: 0.75rem 1.5rem;
     margin: 1rem 0 1.5rem 0;
     font-family: var(--font-special);
@@ -209,7 +220,7 @@ h1, h2, h3, h4, h5 {
     }
 
     .course__name {
-        font-size: 0.25rem;
+        font-size: 2.25rem;
         margin: 2rem 0 0.5rem 0;
     }
     .course__address {
@@ -221,6 +232,21 @@ h1, h2, h3, h4, h5 {
     .course__data-item__number {
         font-size: 2.25rem;
     }
+
+    .btn-primary {
+        font-size: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        margin: 1rem 0 1.5rem 0;
+        font-family: var(--font-special);
+        color: var(--white);
+        background: var(--pink);
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: 0.5ch;
+        box-shadow: var(--shadow);
+    }
+
     .btn-secondary {
         margin: 15vh 0 0 0;
         font-size: 1rem;

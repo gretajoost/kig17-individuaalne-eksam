@@ -244,16 +244,6 @@ h1, h2, h3, h4, h5 {
 
     .btn-primary {
         font-size: 1.5rem;
-        padding: 0.75rem 1.5rem;
-        margin: 1rem 0 1.5rem 0;
-        font-family: var(--font-special);
-        color: var(--white);
-        background: var(--pink);
-        text-decoration: none;
-        text-align: center;
-        text-transform: uppercase;
-        border-radius: 0.5ch;
-        box-shadow: var(--shadow);
     }
 
     .btn-secondary {

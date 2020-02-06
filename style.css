@@ -118,6 +118,7 @@ h1, h2, h3, h4, h5 {
     line-height: 1;
     margin: 0.5rem 0 0.1rem 0; 
     padding: 0;
+    color: var(--blue-dark);
 }
 .course__distance-unit {
     font-size: 0.625rem;
@@ -133,7 +134,7 @@ h1, h2, h3, h4, h5 {
     margin: 1rem 0;
     font-size: 34px;
     text-transform: uppercase;
-    color: var(--black);
+    color: var(--white);
 }
 
 .course__data-item__number {
@@ -147,7 +148,7 @@ h1, h2, h3, h4, h5 {
     margin: 1rem 0 1.5rem 0;
     font-family: var(--font-special);
     color: var(--white);
-    background: #927533;
+    background: var(--pink);
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;

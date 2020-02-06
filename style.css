@@ -1,10 +1,10 @@
 
 :root {
-    --yellow: hsl(0, 0%, 67%);
-    --yellow-lighter: hsl(0, 0%, 86%);
-    --blue: hsl(0, 0%, 58%);
-    --blue-dark: hsl(0, 0%, 31%);
-    --pink: hsl(0, 0%, 65%);
+    --yellow: hsl(47, 77%, 67%);
+    --yellow-lighter: hsl(58, 81%, 86%);
+    --blue: hsl(183, 42%, 60%);
+    --blue-dark:hsl(194, 48%, 31%);
+    --pink: hsl(335, 46%, 65%);
     --gray: hsl(0, 0%, 87%);
     --white: hsl(0, 0%, 100%);
 
@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5 {
 }
 .lang__btn {
     font-family: var(--font-special);
-    color: var(--pink);
+    color: var(--blue-dark);
     text-decoration: none;
 }
 
@@ -109,8 +109,8 @@ h1, h2, h3, h4, h5 {
     right: 6vw;
     top: -1rem;
     border-radius: 50%;
-    color: var(--white);
-    background: none;
+    color: var(--blue-dark);
+    background: var(--yellow);
     box-shadow: var(--shadow);
 }
 .course__distance-number {
@@ -210,7 +210,6 @@ h1, h2, h3, h4, h5 {
     .course__name {
         font-size: 0.25rem;
         margin: 2rem 0 0.5rem 0;
-        transform: rotate(10deg);
     }
     .course__address {
         font-size: 0.875rem;
